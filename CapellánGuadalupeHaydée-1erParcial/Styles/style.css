@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+main{
+    margin: 10px;
+}
+body{
+    background-color: rgb(166, 236, 176);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.active{
+    background-color: rgb(37, 97, 25);
+    
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: rgb(23, 148, 30);
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    border: none;
+    font-size: 1.7em;
+}
+.div-titulo{
+    font-family: 'Merriweather', serif;
+    font-size: 4em;
+    color: rgb(6, 20, 9);
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+}
+.Titulo{
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+    color: rgb(6, 20, 9);
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+}
+@media screen and (max-width: 768px) {
+    .Titulo, .div-titulo {
+        font-size: 2em;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .Titulo, .div-titulo {
+        font-size: 1.5em; 
+    }
+}
+.img-logo{
+    max-width: 40em;
+    width: 100%;
+    height: auto;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 20px;
+}
+footer{
+    font-size: 2em;
+    background-color: rgb(23, 148, 30);
+    padding: 1em;
+    text-align: center;
+    position: relative; 
+}
+p {
+    font-family: 'Merriweather', serif;
+    color: rgb(6, 20, 9);
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2em;
+    background-color: rgb(185, 236, 198);
+    font-size: 2em;
+    padding: 1em;
+}
+
+@media screen and (max-width: 1200px) {
+    p {
+        margin-left: 5em;
+        margin-right: 5em;
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    p {
+        margin-left: 3em;
+        margin-right: 3em;
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        margin-left: 2em;
+        margin-right: 2em;
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    p {
+        margin-left: 1em;
+        margin-right: 1em;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    p {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        font-size: 1em;
+    }
+}
+.background-container {
+    background-image: url('../img/Estrellas.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    position: relative;
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.content {
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    color: white; 
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+}
+
+.superimposed-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.ContenidoTabla{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    overflow-x: auto;
+}
+.Tabla{
+    border-collapse: collapse; 
+    margin: 20px auto; 
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    color: white; 
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Tabla th, .Tabla td {
+    border: 2px solid black; 
+    padding: 10px; 
+    text-align: center; 
+    font-size: 1.5em;
+}
+
+.Tabla th {
+    background-color: #092c13; 
+    color: rgb(169, 238, 180);
+    font-size: 1.5em;
+}
+@media screen and (max-width: 768px) {
+    .Tabla {
+        font-size: 1em; 
+    }
+}
